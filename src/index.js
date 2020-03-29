@@ -4,6 +4,8 @@ import { combineReducers, createStore } from "redux";
 import { Provider } from "react-redux";
 import itemsReducer from "./reducers/items";
 
+import * as serviceWorker from "./serviceWorker";
+
 import App from './App';
 
 import "antd/dist/antd.css";
@@ -21,3 +23,5 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root')
 );
+
+serviceWorker.register();
