@@ -39,7 +39,7 @@ class App extends React.Component {
                 </Row>
                 <Footer>
                     <Text>
-                        Вдохновенно <a href="https://journal.tinkoff.ru/" rel="noopener noreferrer" target="_blank">Т—Ж</a>,
+                        Вдохновлено <a href="https://journal.tinkoff.ru/" rel="noopener noreferrer" target="_blank">Т—Ж</a>,
                         созданно <a href="https://patriotovsky.ru/" rel="noopener noreferrer" target="_blank">мной</a>.
                     </Text>
                 </Footer>
